@@ -375,4 +375,12 @@ header .navbar ul li a:hover{
     padding-right: 1rem;
     color:#89cfe7;
 }
-
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #191919;;
+    font-size: 17px;
+    color: #bca8a8;
+}
