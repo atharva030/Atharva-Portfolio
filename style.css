@@ -50,11 +50,11 @@ section{
 .icon a {
     
     color: white;
-    padding: 14px ;
-    font-size: 26px ;
+    padding: 1.2rem ;
+    font-size: 2.8rem ;
   }
-.btn{
-    margin:12px;
+.all-btn{
+    margin: 1rem;
     padding:.7rem 3rem;
     background:#333;
     color:#fff;
@@ -64,12 +64,12 @@ section{
     border-radius: 5rem;
 }
 
-.btn i{
+.all-btn i{
     padding:0 .5rem;
     font-size: 1.8rem;
 }
 
-.btn:hover{
+.all-btn:hover{
     background:var(--yellow);
 }
 
@@ -144,7 +144,7 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
-#menu{
+#burger{
     position: fixed;
     top:2rem; right:2rem;
     background:#333;
@@ -209,26 +209,26 @@ header .navbar ul li a:hover{
     padding:0 .5rem;
 }
 
-.about .row .counter{
+.about .row .container-Ed-to-end{
     flex:1 1 48rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.about .row .counter .box{
+.about .row .container-Ed-to-end .box{
     width:rem;
     background:#191919;
     padding: 2rem;
     margin:2rem;
 }
 
-.about .row .counter .box span{
+.about .row .container-Ed-to-end .box span{
     font-size: 4rem;
     color:var(--yellow);
 }
 
-.about .row .counter .box h3{
+.about .row .container-Ed-to-end .box h3{
     font-size: 25px;
     color:#fff;
 }
@@ -372,6 +372,14 @@ header .navbar ul li a:hover{
 .contact .row .content .info h3 i{
     padding-right: 1rem;
     color:#89cfe7;
+}
+
+.text-footer{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding:30px 0;
+    background-color: #e1d9d1;
 }
 footer{
     display: flex;
