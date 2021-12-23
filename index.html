@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- responsive css sheet -->
     <link rel="stylesheet" href="responsive.css">
-   
+    <script src="http://code.jquery.com/jquery.min.js"></script>
     <title>Atharva Portfolio</title>
 </head>
 
@@ -41,26 +41,26 @@
             <a href="https://github.com/atharva030" class="fa fa-github"></a>
             <a href="mailto:atharvajagdale28@gmail.com" class="fa fa-envelope"></a>
         </div>
-      
+
     </header>
- 
-    <!-- header section ends -->
 
-    <div id="menu" class="fa fa-bars"></div>
+    <!-- Header Ends  -->
 
-    <!-- home section starts  -->
+    <div id="burger" class="fa fa-bars"></div>
+
+    <!-- home Start -->
 
     <section class="home" id="home">
 
-        <h3>HELLO  !</h3>
+        <h3>HELLO !</h3>
         <h1>I'M <span>Atharva Jagdale</span></h1>
         <p>I'm currently pursuing Electronics and Telecommunication Engineering Undergraduate at Shri Guru Gobind
             Singhji Institute of Engineering and Technolgy, Nanded.
         </p>
-        <a href="#about"><button class="btn">About Me</i></button></a>
+        <a href="#about"><button class="all-btn">About Me</i></button></a>
 
     </section>
-    <!-- about section starts  -->
+    <!-- about Starts  -->
 
     <section class="about" id="about">
 
@@ -73,11 +73,12 @@
                 <h3> <span> Age : </span> 19 </h3>
                 <h3> <span> Qualification : </span> Pursuing 2nd Year B.Tech (EXTC) (2020-24) </h3>
                 <h3> <span> Post : </span> Front End Developer </h3>
-                <h3> <span> Language : </span> English, Marathi,  Hindi </h3>
-                <a href="Atharva Jagdale Resume.pdf" download="Atharva Jagdale Resume"><button class="btn"> Download Resume <span><i class="fa fa-download"></i></span></button></a>
+                <h3> <span> Language : </span> English, Marathi, Hindi </h3>
+                <a href="Atharva Jagdale Resume.pdf" download="Atharva Jagdale Resume"><button class="all-btn"> Download
+                        Resume <span><i class="fa fa-download"></i></span></button></a>
             </div>
 
-            <div class="counter">
+            <div class="container-Ed-to-end">
 
 
                 <!-- education section starts  -->
@@ -90,32 +91,32 @@
 
                         <div class="box">
 
-                        <div class="box">
-                            
-                            <span>2018</span>
-                            <h3>Secondary Schooling</h3>
-                            <p> Upto 2018 | K.S.K. New City High School, Dhule. </p>
-                            <p>10th Std. Examinations |  Percentage : 86%</p>
-                        </div>
+                            <div class="box">
 
-                       
-                        <div class="box">
-                            
-                            <span>2020</span>
-                            <h3>Higher Secondary Schooling</h3>
-                            <p>2018-20 | Z.B. Patil Junior College, Dhule. </p>
-                            <p> 12th Std. Examinations | Percentage : 81.08%</p>
-                            
-                        </div>
+                                <span>2018</span>
+                                <h3>Secondary Schooling</h3>
+                                <p> Upto 2018 | K.S.K. New City High School, Dhule. </p>
+                                <p>10th Std. Examinations | Percentage : 86%</p>
+                            </div>
 
-                        <div class="box">
-                            
-                            <span>2021</span>
-                            <h3>2020-24 | Pursuing B.Tech in Electronics and Telecommunication Engineering</h3>
-                            <p>Current CGPA : 9.40 / 10</p>
-                        </div>
 
-                    </div>
+                            <div class="box">
+
+                                <span>2020</span>
+                                <h3>Higher Secondary Schooling</h3>
+                                <p>2018-20 | Z.B. Patil Junior College, Dhule. </p>
+                                <p> 12th Std. Examinations | Percentage : 81.08%</p>
+
+                            </div>
+
+                            <div class="box">
+
+                                <span>2021</span>
+                                <h3>2020-24 | Pursuing 2nd Year B.Tech in Electronics and Telecommunication Engineering</h3>
+                                <p>Current CGPA : 9.40 / 10</p>
+                            </div>
+
+                        </div>
 
                 </section>
 
@@ -129,27 +130,27 @@
                     <div class="box-container">
 
                         <div class="box">
-                            <img src="1..jpg" alt="">
+                            <img src="1..jpg" alt="Web Projects">
                         </div>
 
                         <div class="box">
-                            <img src="2.jpg" alt="">
+                            <img src="2.jpg" alt="Front end Developer">
                         </div>
 
                         <div class="box">
-                            <img src="3.jpg" alt="">
+                            <img src="3.jpg" alt="Flipkart Grid 3.0">
                         </div>
 
                         <div class="box">
-                            <img src="4.jpg" alt="">
+                            <img src="4.jpg" alt="project">
                         </div>
 
                         <div class="box">
-                            <img src="5.jpg" alt="">
+                            <img src="5.jpg" alt="Web">
                         </div>
 
                         <div class="box">
-                            <img src="6.jpg" alt="">
+                            <img src="6.jpg" alt="Web design">
                         </div>
 
                     </div>
@@ -170,7 +171,9 @@
                             <div class="info">
                                 <h3> <i class="fa fa-envelope"></i> atharvajagdale28@gmail.com </h3>
                                 <h3> <i class="fa fa-phone"></i> +91-8291798609</h3>
-                                <h3> <i class="fa fa-map-marker" aria-hidden="true"></i> Dhule (MS), India - 424004. </h3>
+                                <h3> <i class="fa fa-phone"></i> +91-8291798609</h3>
+                                <h3> <i class="fa fa-map-marker" aria-hidden="true"></i> Dhule (MS), India - 424004.
+                                </h3>
                             </div>
 
                         </div>
@@ -182,29 +185,24 @@
                             <input type="text" placeholder="project" class="box">
                             <textarea name="" id="" cols="30" rows="10" class="box message"
                                 placeholder="message"></textarea>
-                            <button type="submit" class="btn"> Send <i class="fa fa-paper-plane"> </i></button>
+                            <button type="submit" class="all-btn"> Send <i class="fa fa-paper-plane"> </i></button>
 
                         </form>
 
                     </div>
 
                 </section>
-                    <!-- contact section ends -->
-                    
-                  <!-- footer started -->
-                    
+
                 <footer>
                     <p>
-                       Copyright &copy; 2021
+                        Copyright &copy; 2022 
                     </p>
                 </footer>
-                    
-                  <!-- footer Ended -->
-                
- <script src="https://code.jquery.com/jquery.min.js"></script>
-  <!-- custom js file link  -->
-  <script src="java.js"></script>
-              
+                <!-- contact section ends -->
+
+                <!-- custom js file link  -->
+                <script src="js/java.js"></script>
+
 </body>
 
 </html>
