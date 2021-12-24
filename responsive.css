@@ -22,7 +22,6 @@
     display: block;
 }
 
-
    header.toggle{
     left:0%;
    }
@@ -58,7 +57,7 @@
     }
 
     .about .row .container-Ed-to-end .box{
-        width: 100%;
+        width: 89%;
     }
  
     .education .box-container .box{
