@@ -291,7 +291,7 @@ header .navbar ul li a:hover{
 }
 
 .projects .box-container .box{
-    height: 20rem;
+    height: 21rem;
     width:26rem;
     border-radius: 1rem;
     margin:2rem;
@@ -308,7 +308,7 @@ header .navbar ul li a:hover{
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    padding: 1.2rem 0px;
+    padding: 1.8rem 0px;
 }
 
 .projects .box-container .box:hover img{
