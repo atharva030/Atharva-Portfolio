@@ -156,6 +156,7 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+
 .home{
     display: flex;
     justify-content: center;
@@ -224,7 +225,7 @@ header .navbar ul li a:hover{
 }
 
 .about .row .container-Ed-to-end .box span{
-    font-size: 4rem;
+    font-size: 2.5rem;
     color:var(--yellow);
 }
 
@@ -299,9 +300,15 @@ header .navbar ul li a:hover{
 }
 
 .projects .box-container .box img{
-    height:100%;
+        border-radius: 1.2rem;
     width:100%;
     object-fit: cover;
+}
+.projects .box-container .box span{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1.2rem 0px;
 }
 
 .projects .box-container .box:hover img{
@@ -390,3 +397,5 @@ footer{
     font-size: 17px;
     color: #bca8a8;
 }
+
+
