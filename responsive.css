@@ -79,3 +79,12 @@
     }
 
  }
+ 
+ @media (max-width:300px){
+ .projects .box-container .box span{
+    padding: 3.2rem 0;
+}
+.projects .box-container .box{
+    height: 25rem;
+}
+ }
