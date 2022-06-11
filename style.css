@@ -323,6 +323,7 @@ header .navbar ul li a:hover {
 	background: crimson
 }
 
+
 .projects .box-container {
 	display: flex;
 	align-items: center;
@@ -333,8 +334,8 @@ header .navbar ul li a:hover {
 
 .projects .box-container .box {
 	box-shadow: 0;
-	height: 21rem;
-	width: 26rem;
+	height: 25rem;
+	width: 31rem;
 	border-radius: 1rem;
 	margin: 2rem;
 	overflow: hidden;
@@ -345,6 +346,7 @@ header .navbar ul li a:hover {
 .projects .box-container .box img {
 	border-radius: 1.2rem;
 	width: 100%;
+	height: 78%;
 	object-fit: cover;
 }
 
@@ -468,7 +470,6 @@ footer {
 	justify-content: center;
 	width: 100%;
 	background-color: #191919;
-	;
 	font-size: 17px;
 	color: #bca8a8;
 }
